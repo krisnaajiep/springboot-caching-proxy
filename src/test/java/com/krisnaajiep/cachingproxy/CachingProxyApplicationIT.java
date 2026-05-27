@@ -1,10 +1,13 @@
 package com.krisnaajiep.cachingproxy;
 
+import com.krisnaajiep.cachingproxy.config.ITConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.Import;
 
 @SpringBootTest
-class CachingProxyApplicationTests {
+@Import(ITConfig.class)
+class CachingProxyApplicationIT {
 
     @Test
     void contextLoads() {
