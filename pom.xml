@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.krisnaajiep</groupId>
     <artifactId>springboot-caching-proxy</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>springboot-caching-proxy</name>
     <description>springboot-caching-proxy</description>
     <url/>
